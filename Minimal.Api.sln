@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.Api", "Minimal.Api\Minimal.Api.csproj", "{99208ABF-9359-4E81-9ED5-01E84C8E9022}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Minimal.Project", "Minimal.Project", "{7E25D7A4-F54B-4E6C-A53A-C876957AFABA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.api", "library.api\library.api.csproj", "{3101086B-6E8F-4D43-A54B-CBADA2A7781D}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99208ABF-9359-4E81-9ED5-01E84C8E9022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99208ABF-9359-4E81-9ED5-01E84C8E9022}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99208ABF-9359-4E81-9ED5-01E84C8E9022}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99208ABF-9359-4E81-9ED5-01E84C8E9022}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3101086B-6E8F-4D43-A54B-CBADA2A7781D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3101086B-6E8F-4D43-A54B-CBADA2A7781D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3101086B-6E8F-4D43-A54B-CBADA2A7781D}.Release|Any CPU.ActiveCfg = Release|Any CPU
