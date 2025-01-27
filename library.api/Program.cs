@@ -5,7 +5,6 @@ using library.api.Data;
 using library.api.Endpoints;
 using library.api.Models;
 using library.api.Properties.Auth;
-using library.api.Properties.Data;
 using library.api.Services;
 using Microsoft.AspNetCore.Authorization;
 
@@ -27,14 +26,13 @@ builder.Services.AddSingleton<IDBConnectionFactory>(_ =>
     ));
 builder.Services.AddSingleton<DatabaseInitializer>();
 builder.Services.AddSingleton<IBookService,BookService>();
-builder.Services.AddLibraryEndoints();
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
 
 
 var app = builder.Build();
 
-
+builder.Services.AddLibraryEndpoints();
 app.UseSwagger();
 app.UseSwaggerUI();
 

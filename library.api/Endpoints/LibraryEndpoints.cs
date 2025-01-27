@@ -1,15 +1,15 @@
 ﻿namespace library.api.Endpoints
 {
-    public class LibraryEndpoints
+    public static class LibraryEndpoints
     {
-        public static void AddLibraryEndoints(this IServiceCollection services)
+        public static IServiceCollection AddLibraryEndpoints(this IServiceCollection services)
         {
-
+            return services;
         }
 
-        public static UseLibraryEndpoints(this IApplicationBuilder app)
+        public static IApplicationBuilder UseLibraryEndpoints(this IApplicationBuilder app)
         {
-
+            return app;
         }
 
 
